@@ -1,0 +1,54 @@
+{
+  "name": "fetch-webflow-designers",
+  "version": "1.0.0",
+  "description": "Export Webflow's top designers into a csv",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "build": "make build",
+    "start": "make start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beogip/fetch-webflow-designers.git"
+  },
+  "keywords": [
+    "Webflow",
+    "search",
+    "designers"
+  ],
+  "author": "@beogip",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/beogip/fetch-webflow-designers/issues"
+  },
+  "homepage": "https://github.com/beogip/fetch-webflow-designers#readme",
+  "dependencies": {
+    "@vercel/node": "^1.10.0",
+    "cors": "^2.8.5",
+    "isomorphic-fetch": "^3.0.0",
+    "json2csv": "^5.0.6"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.23",
+    "@typescript-eslint/eslint-plugin": "^3.5.0",
+    "@typescript-eslint/parser": "^3.5.0",
+    "cz-conventional-changelog": "^3.0.1",
+    "eslint": "^7.3",
+    "eslint-config-prettier": "^6",
+    "eslint-config-standard": "^14",
+    "eslint-config-standard-typescript-prettier": "^3.2.0",
+    "eslint-plugin-import": "^2.22",
+    "eslint-plugin-node": "^11.0",
+    "eslint-plugin-prettier": "^3.1",
+    "eslint-plugin-promise": "^4.2",
+    "eslint-plugin-standard": "^4",
+    "prettier": "^2",
+    "typescript": "^3.9.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}
